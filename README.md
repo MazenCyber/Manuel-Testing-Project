@@ -70,16 +70,27 @@ The following QA activities were performed:
 10. Test Execution Summary
 
 ---
+# 📂 Project Structure
 
-## 📂 Project Documents
-
-| Document                          | Description                                                                     |
-| --------------------------------- | ------------------------------------------------------------------------------- |
-| [Test Plan](Test-Plan/)           | Defines the testing objectives, scope, approach, entry/exit criteria and risks. |
-| [Test Cases](Test-Cases/)         | Contains detailed test cases with preconditions, steps and expected results.    |
-| [Test Scenarios](Test-Scenarios/) | Contains high-level scenarios covering the main application functionalities.    |
-| [Test Execution](Test-Execution/) | Contains test execution results and the Pass/Failed/Blocked summary.            |
-| [Bug Reports](Bug-Reports/)       | Contains defects identified during testing.                                     |
+```text
+QA-Automation-Framework/
+│
+├── 📂 tests case
+│   ├── test case.xlsx
+│   ├── test case screenshot.png
+|   
+├── 📂 Test Plan
+│   ├── Test Plan.docx
+|
+├── 📂 Test Environment
+│   ├── Test Environment.docx
+├── 📂 reports
+│
+├── 📂 screenshots
+│
+├── 📜 requirements.txt
+├── 📜 README.md
+```
 
 ---
 
