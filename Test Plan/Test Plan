@@ -1,92 +1,183 @@
-# Test Plan: Login Feature
+# AutomationExercise – QA Testing Project
 
-## 1. Objective
+## 📌 Project Overview
 
-The objective of this test plan is to verify that the login feature works correctly and handles both valid and invalid user input.
+This project is a practical Software Testing project performed on the **AutomationExercise** e-commerce web application.
 
-## 2. Scope
+The purpose of this project is to demonstrate practical skills in **Manual Testing, Test Case Design, Test Execution, Defect Reporting, and Test Documentation**.
 
-This test plan covers:
+**Application:** AutomationExercise
+**Testing Type:** Functional Testing
+**Project Type:** E-commerce Web Application
+**Role:** QA Tester
 
-- Login with valid credentials
-- Login with invalid credentials
-- Empty field validation
-- Invalid email format validation
-- Error message validation
-- Basic API response validation
+---
 
-## 3. Out of Scope
+## 🎯 Testing Objectives
 
-This test plan does not cover:
+The main objectives of this project are:
 
-- Password reset
-- Account registration
-- Multi-factor authentication
-- Social login
-- Performance testing
+* Verify that the main e-commerce functionalities work as expected.
+* Identify and document defects.
+* Create clear and reusable test cases.
+* Execute test cases and record their results.
+* Verify the shopping and checkout flow.
+* Prepare professional QA documentation.
+* Practice real-world software testing activities.
 
-## 4. Test Approach
+---
 
-The testing approach includes:
+## 🔍 Scope of Testing
 
-- Manual testing
-- Functional testing
-- Negative testing
-- UI validation
-- API testing using Postman
+### In Scope
 
-## 5. Test Environment
+The following functionalities are covered:
 
-- OS: Windows 10
-- Browser: Google Chrome
-- API Testing Tool: Postman
-- Documentation: Markdown
-- Version Control: Git and GitHub
+* Product Details
+* Add to Cart
+* Cart Management
+* Checkout Process
+* Payment Gateway Integration
+* Product Reviews
+* Input Validation
+* Order Confirmation
 
-## 6. Test Data
+### Out of Scope
 
-| Data Type | Value |
-|---|---|
-| Valid Email | user@example.com |
-| Valid Password | Password123 |
-| Invalid Password | wrongpassword |
-| Invalid Email Format | userexample.com |
-| Empty Email | empty |
-| Empty Password | empty |
+The following areas are not covered in this project:
 
-## 7. Entry Criteria
+* Performance Testing
+* Load Testing
+* Stress Testing
+* Security Penetration Testing
+* Production payment transactions
 
-Testing can begin when:
+---
 
-- Login page is available
-- Test account is prepared
-- Test environment is ready
-- API endpoint is accessible
-- Test cases are prepared
+## 🧪 Testing Activities
 
-## 8. Exit Criteria
+The following QA activities were performed:
 
-Testing can be completed when:
+1. Test Planning
+2. Test Scenario Design
+3. Test Case Development
+4. Test Data Preparation
+5. Test Execution
+6. Defect Identification
+7. Defect Reporting
+8. Retesting
+9. Regression Testing
+10. Test Execution Summary
 
-- All planned test cases are executed
-- Critical and high-priority bugs are reported
-- Test results are documented
-- Retest is completed for fixed bugs
-- Testing summary report is prepared
+---
+# 📂 Project Structure
 
-## 9. Risks
+```text
+QA-Automation-Framework/
+│
+├── 📂 tests case
+│   ├── test case.xlsx
+│   ├── test case screenshot.png
+|   
+├── 📂 Test Plan
+│   ├── Test Plan.docx
+|
+├── 📂 Test Environment
+│   ├── Test Environment.docx
+├── 📂 reports
+│
+├── 📂 screenshots
+│
+├── 📜 requirements.txt
+├── 📜 README.md
+```
 
-| Risk | Impact | Mitigation |
-|---|---|---|
-| Test account unavailable | Cannot test login | Prepare a backup test account |
-| API endpoint unavailable | Cannot test API | Test UI flow first |
-| Error messages unclear | May affect user experience | Report as usability issue |
-| Browser compatibility issue | Feature may behave differently | Test on another browser |
+---
 
-## 10. Deliverables
+## 🛒 Main Test Areas
 
-- Test cases
-- Bug reports
-- Postman collection
-- Testing summary report
-- Screenshots or testing evidence
+### 1. Product Details
+
+Testing includes:
+
+* Product name
+* Product category
+* Product price
+* Currency
+* Availability
+* Condition
+* Brand
+* Product image
+* Quantity
+
+### 2. Add to Cart
+
+Testing includes:
+
+* Adding a product
+* Adding multiple products
+* Adding different quantities
+* Cart count
+* Product price
+* Total price calculation
+
+### 3. Cart Management
+
+Testing includes:
+
+* Viewing cart items
+* Increasing quantity
+* Decreasing quantity
+* Removing products
+* Empty cart
+* Cart total calculation
+
+### 4. Checkout
+
+Testing includes:
+
+* Proceeding to checkout
+* Customer information
+* Mandatory field validation
+* Invalid input validation
+* Order information
+* Placing an order
+
+---
+
+## 📊 Test Execution
+
+Test cases are classified using the following statuses:
+
+| Status         | Description                                                               |
+| -------------- | ------------------------------------------------------------------------- |
+| ✅ Pass         | Actual result matches the expected result.                                |
+| ❌ Failed       | Actual result does not match the expected result.                         |
+| ⚠️ Blocked     | Test execution cannot continue because of a blocking issue or dependency. |
+| ⏳ Not Executed | Test case has not yet been executed.                                      |
+
+The Test Execution section contains the execution results and a graphical summary of the test status.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Manual Testing
+* Test Case Design
+* Microsoft Excel
+* Git
+* GitHub
+* Selenium WebDriver
+* Python
+* SQL / MySQL
+* Browser DevTools
+
+---
+
+## 🌐 Application Under Test
+
+**AutomationExercise**
+
+https://automationexercise.com/
+
+The application is used as a practice environment for software testing and automation.
