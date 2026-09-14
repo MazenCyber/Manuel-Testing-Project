@@ -80,7 +80,6 @@ The following QA activities were performed:
 | [Test Scenarios](Test-Scenarios/) | Contains high-level scenarios covering the main application functionalities.    |
 | [Test Execution](Test-Execution/) | Contains test execution results and the Pass/Failed/Blocked summary.            |
 | [Bug Reports](Bug-Reports/)       | Contains defects identified during testing.                                     |
-| [Automation](Automation/)         | Contains Selenium/Python automation scripts.                                    |
 
 ---
 
@@ -133,36 +132,6 @@ Testing includes:
 * Order information
 * Placing an order
 
-### 5. Payment
-
-Testing includes:
-
-* Payment method selection
-* Valid payment information
-* Invalid payment information
-* Payment validation
-* Successful payment
-* Failed payment
-* Payment amount verification
-
----
-
-## 🐞 Defect Management
-
-For identified defects, the following information is recorded:
-
-* Bug ID
-* Bug Title
-* Description
-* Preconditions
-* Steps to Reproduce
-* Expected Result
-* Actual Result
-* Severity
-* Priority
-* Evidence
-* Bug Status
-
 ---
 
 ## 📊 Test Execution
@@ -201,44 +170,3 @@ The Test Execution section contains the execution results and a graphical summar
 https://automationexercise.com/
 
 The application is used as a practice environment for software testing and automation.
-
----
-
-## 📈 Future Improvements
-
-Future versions of this project may include:
-
-* Selenium automation using Python
-* Page Object Model (POM)
-* PyTest
-* Automated test reports
-* API Testing using Postman
-* SQL database testing
-* CI/CD integration using Jenkins or GitHub Actions
-
----
-
-## 👤 Author
-
-**Mazen Tarek**
-
-Computer Science Graduate | QA Tester
-
-Skills:
-
-* Manual Testing
-* ISTQB Foundation
-* Selenium
-* Python
-* SQL
-* API Testing
-* Git & GitHub
-* Cybersecurity
-
----
-
-## 📌 Project Status
-
-**In Progress**
-
-The project will be continuously improved by adding more test cases, defect reports, test automation and additional testing techniques.
