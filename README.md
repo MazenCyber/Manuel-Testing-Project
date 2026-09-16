@@ -167,7 +167,6 @@ The Test Execution section contains the execution results and a graphical summar
 * Microsoft Excel
 * Git
 * GitHub
-* Selenium WebDriver
 * Python
 * Browser DevTools
 
