@@ -169,7 +169,6 @@ The Test Execution section contains the execution results and a graphical summar
 * GitHub
 * Selenium WebDriver
 * Python
-* SQL / MySQL
 * Browser DevTools
 
 ---
