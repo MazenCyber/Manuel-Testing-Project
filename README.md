@@ -1,4 +1,4 @@
-# AutomationExercise – QA Testing Project
+# Test Case Design – QA Testing Project
 
 ## 📌 Project Overview
 
