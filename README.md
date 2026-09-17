@@ -1,4 +1,4 @@
-# Test Case Design – QA Testing Project
+# Test Case Design – Manuel Testing Project
 
 ## 📌 Project Overview
 
